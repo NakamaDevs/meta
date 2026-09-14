@@ -5,3 +5,7 @@ coverage
 plugins/*
 yarn-error.log
 coverage
+
+/_build/
+
+/workspace.local.json

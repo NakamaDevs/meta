@@ -1,0 +1,27 @@
+[tools]
+node = "24.20.0"
+uv = "0.12.9"
+
+[tasks."workspace:setup"]
+description = "Bunko setup for this workspace"
+run = "python3 scripts/bunko.py setup"
+
+[tasks."workspace:start"]
+description = "Bunko start for this workspace"
+run = "python3 scripts/bunko.py start"
+
+[tasks."workspace:stop"]
+description = "Bunko stop for this workspace"
+run = "python3 scripts/bunko.py stop"
+
+[tasks."workspace:status"]
+description = "Bunko status for this workspace"
+run = "python3 scripts/bunko.py status"
+
+[tasks."workspace:check"]
+description = "Bunko doctor for this workspace"
+run = "python3 scripts/bunko.py doctor"
+
+[tasks."docs:build"]
+description = "Bunko build for this workspace"
+run = "python3 scripts/bunko.py build"
